@@ -46,11 +46,11 @@
 			font-size: 20px;
 			color: white;
 			text-decoration: none;
+			transition: font-size 0.5s;
 		}
 		.topnav a:hover{
 			background-color: #F23B3B;
 			font-size: 24px;
-			transition: font-size 0.5s;
 		}
 		.topnav .active{
 			border-top: 3px solid #F13A3A;
@@ -114,9 +114,11 @@
 		}
 
 		/* animations */
+		.paint, .cybs, .prgm{
+			transition: 0.7s;
+		}
 		.paint:hover, .cybs:hover, .prgm:hover{
 			transform: scale3d(1.1,1.1,1.1);
-			transition: 0.7s;
 		}
 		.paint div:hover, .cybs div:hover, .prgm div:hover{
 			transform: rotateY(360deg);
