@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<style type="text/css">
+		body{
+			background-image: url(bg.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0px;
+			overflow-x: hidden;
+		}
+		.header{
+			height: 60px;
+			opacity: 0.5;
+			background-color: white;
+			color: #030619;
+			font-family: "Times New Roman", serif;
+			font-size: 55px;
+			font-variant: small-caps;
+			text-shadow: 2px 1px grey;
+			padding: 10px;
+			text-align: center;
+		}
+		.topnav{
+			position: sticky;
+			width: 100%;
+			margin: 0px;
+			background-color: #030619;
+			overflow: auto;
+			opacity: 0.9;
+		}
+		.topnav span{
+			float: left;
+			font-size: 30px;
+			padding-left: 10px;
+			padding-top: 5px;
+			color: white;
+			font-weight: bold;
+		}
+		.topnav a{
+			float: right;
+			padding: 8px;
+			padding-right: 30px;
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+		}
+		.topnav a:hover{
+			background-color: #F23B3B;
+			font-size: 24px;
+			transition: font-size 0.5s;
+		}
+		.topnav .active{
+			border-top: 3px solid #F13A3A;
+			background-color: black;
+		}
+
+		.intrst{
+			position: absolute;
+			top: 125px;
+			margin-top: 30px;
+			height: auto;
+		}
+
+		/* programming */
+		.prgm{
+			display: inline-block;
+			margin-top: 100px;
+			margin-left: 80px;
+		}
+		.prgm img{
+			box-shadow: 0 0 5px 2px #100F41;
+		}
+		.prgm div{
+			font-size: 45px;
+			text-align: center;
+			font-family: "mistral";
+			color: #060425;
+		}
+
+		/* painting */
+		.paint{
+			display: inline-block;
+			margin-top: 100px;
+			margin-left: 80px;
+		}
+		.paint img{
+			box-shadow: 0 0 5px 2px #100F41;
+		}
+		.paint div{
+			font-size: 45px;
+			text-align: center;
+			font-family: "mistral";
+			color: #060425;
+		}
+
+		/* cybersecurity */
+		.cybs{
+			display: inline-block;
+			margin-top: 100px;
+			margin-left: 80px;
+			margin-bottom: 50px;
+		}
+		.cybs img{
+			box-shadow: 0 0 5px 2px #100F41;
+		}
+		.cybs div{
+			font-size: 45px;
+			text-align: center;
+			font-family: "mistral";
+			color: #060425;
+		}
+
+		/* animations */
+		.paint:hover, .cybs:hover, .prgm:hover{
+			transform: scale3d(1.1,1.1,1.1);
+			transition: 0.7s;
+		}
+		.paint div:hover, .cybs div:hover, .prgm div:hover{
+			transform: rotateY(360deg);
+			transition: 3.5s;
+		}
+
+		footer{
+			position: fixed;
+			bottom: 0px;
+			width: 100%;
+			text-align: right;
+			font-size: 30px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: #02030C;
+			color: #bab9ea;
+			padding-right: 50px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">Welcome To My Portfolio</div>
+	<div class="topnav">
+		<span>The Portfolio</span>
+		<a href="cntc.html">Contact</a>
+		<a href="adms.html">Academics</a>
+		<a href="avmt.html">Achievements</a>
+		<a href="irst.html" class="active">Interests</a>
+		<a href="index.html">Home</a>
+	</div>
+	<div class="intrst">
+		<div class="prgm">
+			<img src="coding.jpg" width="400" height="200">
+			<div>Programming</div>
+		</div>
+		<div class="paint">
+			<img src="painting1.jpg" width="400" height="200">
+			<div>Painting</div>
+		</div>
+		<div class="cybs">
+			<img src="cybersecurity.jpg" width="400" height="200">
+			<div>Cybersecurity</div>
+		</div>
+	</div>
+	<footer>
+		Made by Sarvottam!
+	</footer>
+</body>
+</html>

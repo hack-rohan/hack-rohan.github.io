@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<style type="text/css">
+		body{
+			background-image: url(bg.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0px;
+			overflow-x: hidden;
+		}
+		.header{
+			height: 60px;
+			opacity: 0.5;
+			background-color: white;
+			color: #030619;
+			font-family: "Times New Roman", serif;
+			font-size: 55px;
+			font-variant: small-caps;
+			text-shadow: 2px 1px grey;
+			padding: 10px;
+			text-align: center;
+		}
+		.topnav{
+			position: sticky;
+			width: 100%;
+			margin: 0px;
+			background-color: #030619;
+			overflow: auto;
+			opacity: 0.9;
+		}
+		.topnav span{
+			float: left;
+			font-size: 30px;
+			padding-left: 10px;
+			padding-top: 5px;
+			color: white;
+			font-weight: bold;
+		}
+		.topnav a{
+			float: right;
+			padding: 8px;
+			padding-right: 30px;
+			font-size: 20px;
+			color: white;
+			text-decoration: none;
+		}
+		.topnav a:hover{
+			background-color: #F23B3B;
+			font-size: 24px;
+			transition: font-size 0.5s;
+		}
+		.topnav .active{
+			border-top: 3px solid #F13A3A;
+			background-color: black;
+		}
+
+		.acdmcs{
+			position: absolute;
+			top: 125px;
+			height: auto;
+			margin: 40px;
+			padding: 20px;
+			padding-left: 200px; 
+			padding-bottom: 40px;
+		}
+		.acdmcs div{
+			overflow: auto;
+			padding-right: 20px;
+			padding-left: 15px;
+		}
+		.acdmcs div:hover{
+			transform: scale3d(1.1, 1.1, 1.1);
+			box-shadow: 0 0 8px 2px #100F41;
+			transition: 0.5s
+		}
+		.acdmcs h2{
+			font-size: 45px;
+			margin-bottom: 0px;
+			font-family: "brush script mt";
+			color: #03011c;
+			text-shadow: 2px 2px 6px #050553;
+		}
+		.acdmcs span{
+			font-size: 35px;
+			text-align: left;
+			width: 500px;
+			margin: 0px;
+			padding-left: 100px;
+			padding-bottom: 40px;
+			display: inline-block;
+			position: relative;
+			bottom: 30px;
+			font-family: "mistral";
+			color: #03011c;
+			font-weight: bold;
+		}
+		.acdmcs .coleg span{
+			bottom: 60px;
+		}
+		.acdmcs .coleg{
+			box-sizing: border-box;
+			margin-bottom: 40px;
+		}
+		.acdmcs .schl h2{
+			margin-bottom: 20px;
+		}
+		.acdmcs img{
+			display: inline-block;
+			position: relative;
+			left: 10px;
+		}
+		.acdmcs .hschl img{
+			left: 35px;
+		}
+		.acdmcs .hschl span{
+			width: auto;
+		}
+
+		footer{
+			position: fixed;
+			bottom: 0px;
+			width: 100%;
+			text-align: right;
+			font-size: 30px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: #02030C;
+			color: #bab9ea;
+			padding-right: 50px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">Welcome To My Portfolio</div>
+	<div class="topnav">
+		<span>The Portfolio</span>
+		<a href="cntc.html">Contact</a>
+		<a href="adms.html" class="active">Academics</a>
+		<a href="avmt.html">Achievements</a>
+		<a href="irst.html">Interests</a>
+		<a href="index.html">Home</a>
+	</div>
+	<div class="acdmcs">
+		<div class="schl">
+			<h2>Upto 2016</h2>
+			<span>
+				SVN ( Saraswati Vidya Niketan )<br>
+				10th Result :- 10 cgpa
+			</span>	
+			<img src="svn.png">
+		</div>
+		<div class="hschl">
+			<h2>2016-2018</h2>
+			<span>
+				GGPS ( Guru Gobind Singh Public School )<br>
+				12th Result :- 91.2%
+			</span>	
+			<img src="ggps.png" height="160px" width="160px">
+		</div>
+		<div class="coleg">
+			<h2>2018 till now</h2>
+			<span>
+				IIT Kharagpur<br>
+				1st year Result :- Yet to be announced!
+			</span>	
+			<img src="iitkgp1.png" height="200px" width="200px">
+		</div>		
+	</div>
+	<footer>
+		Made by Sarvottam!
+	</footer>
+</body>
+</html>
