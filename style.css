@@ -1,0 +1,677 @@
+body{
+	margin: 0px;
+	background-color: white;
+}
+
+/* header */
+.header{
+	position: relative;
+	width: 990px;
+	margin: auto;
+	margin-top: 60px;
+	overflow: hidden;
+}
+.header .logo1{
+	float: left;
+}
+.header .heading{
+	float: left;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+}
+.header .logo2{
+	float: right;
+	position: relative;
+	top: 4px;
+}
+
+/* account */
+.account{
+	background-color: #d83230;
+	border-bottom: #ad2826 solid 20px;
+	color: white;
+}
+.account .fas{
+	position: relative;
+	bottom: 0.4px;
+}
+.account .container-hybrid{
+	width: 1000px;
+	margin: auto;
+	height: 341.17px;
+	overflow: hidden;
+}
+.account .container1{
+	display: inline-block;
+	width: 325px;
+	margin-bottom: 20px;
+	margin-top: 16px;
+	
+}
+.account .container2{
+	display: inline-block;
+	width: 665px;
+	position: relative;
+	bottom: 42px;
+}
+.account .text1 .a{
+	font-size: 20px;
+	font-family: BrandonText-Regular,Arial,sans-serif; 
+}
+.account .text1 .b{
+	font-size: 36px;
+	font-family: BrandonText-Medium,Arial,sans-serif; 
+}
+.account .sign-in-form{
+	background-color: #ad2826;
+	display: inline-block;
+	width: 280px;
+	padding: 10px 15px 20px;
+}
+.account input{
+	width: 272px;
+	height: 36px;
+	border: 0px;
+	padding: 0px;
+	padding-left: 8px;
+	border: 1px solid #ccc;
+}
+.account .email{
+	padding: 5px 0px 5px;
+	box-sizing: border-box; 
+}
+.account .psswd{
+	padding: 5px 0px 5px;
+	box-sizing: border-box; 
+}
+.account .rem{
+	width: 280px;
+	margin-top: 2px;
+}
+.account .rem input{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+.account .rem .text{
+	display: inline-block;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+}
+.account .rem .a{
+	font-size: 12px;
+}
+.account .rem .b{
+	font-size: 10px;
+}
+.account .sbmt{
+	background-color: #f28005;
+	margin: 20px 0px 10px;
+	color: white;
+	text-align: center;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	box-sizing: border-box;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	transition: 0.5s;
+}
+.account .sbmt:hover{
+	background-color: #F15126;
+	color: #F7ACAE;
+}
+.account .frgt{
+	font-size: 12px;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	text-decoration: underline;
+}
+
+.account a{
+	text-decoration: none;
+	color: white;
+}
+.account .text2{
+	margin-bottom: 20px;
+}
+.account .text2 .a{
+	display: inline-block;
+	padding-left: 4px;
+}
+.account .text2 .b{
+	display: inline-block;
+	font-size: 36px;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;	
+	position: relative;
+	top: 10px; 
+}
+.account .text2 .c{
+	display: inline-block;
+}
+.account .sub-container{
+	width: 700px;
+}
+.account .tchrs{
+	background-color: #ad2826;	
+	width: 325px;
+	height: 187px;
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	margin-right: 15px;
+}
+.account .tchrs .a{
+	font-size: 24px;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	text-align: center;
+	line-height: 40px;
+}
+.account .tchrs a{
+	text-decoration: none;
+}
+.account .tchrs .b{
+	background-color: #3fb0eb;
+	margin: 14px 25px 29px;
+	color: white;
+	text-align: center;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	box-sizing: border-box;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+.account .tchrs .b:hover{
+	background-color: #1982ED;
+}
+.account .prnts{
+	background-color: #ad2826;
+	width: 325px;
+	height: 187px;
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+	margin-right: 15px;
+}
+.account .prnts .a{
+	font-size: 24px;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	text-align: center;
+	line-height: 40px;
+}
+.account .prnts a{
+	text-decoration: none;
+}
+.account .prnts .b{
+	background-color: #f28005;
+	margin: 14px 25px 29px;
+	color: white;
+	text-align: center;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	box-sizing: border-box;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+.account .prnts .b:hover{
+	background-color: #ED4119;
+}
+
+/* Book */
+.book{
+	margin-top: 2px;
+	background-image: url(bg1.jpg);
+	background-repeat: none;
+}
+.book .text3{
+	color: white;
+	text-align: center;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	font-size: 40px; 
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.book .container3{
+	margin: auto;
+	width: 1080px;
+}
+.book .vdo1{
+	display: inline-block;
+	margin-right: 15px;
+	width: 572px;
+	position: relative;
+	bottom: 20px;
+	left: 50px;
+}
+.book .logo{
+	position: absolute;
+	left: 236px;
+	top: 110px;
+	opacity: 0.7;
+}
+.book .logo:hover{
+	opacity: 0.9;
+}
+.book .bookpic{
+	display: inline-block;
+	height: 340px;
+	position: relative;
+	left: 60px;
+}
+
+/* Read */
+.read .text4{
+	margin-top: 45px;
+	margin-bottom: 30px;
+	color: #d83230;
+	text-align: center;
+	font-size: 36px;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+}
+.read .container4{
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 50px; 
+}
+.read .a{
+	display: inline-table;
+	width: 15%;
+}
+.read .b{
+	display: inline-table;
+	width: 15%;
+	margin-left: 20px;
+}
+.read .c{
+	display: inline-table;
+	width: 15%;
+	margin-left: 20px;
+}
+.read .d{
+	display: inline-table;
+	width: 15%;
+	margin-left: 20px;
+}
+.read .num::before{
+	content: "____________";
+	color: #dbcba6;
+	position: relative;
+	bottom: 8px;
+	right: 7px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+.read .num span{
+	font-size: 20px;
+	color: #d73131;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+.read .num::after{
+	content: "____________";
+	color: #dbcba6;
+	position: relative;
+	bottom: 8px;
+	left: 7px;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+.read .subtext{
+	margin-top: 13px;
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+/* videos */
+.videos{
+	background: #f4f1ea;
+	overflow: auto;
+}
+.videos .text5{
+	color: #d83230;
+	font-size: 36px;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 20px;
+}
+.videos .container5{
+	width: 977px;
+	margin: auto;
+	background-color: white;
+	margin-bottom: 20px;
+	margin-top: 15px;
+	border: 15px solid white;
+	border-left: 17px solid white;  
+	border-right: 12px solid white;
+}
+.videos .smpvid{
+	width: 637px;
+	object-fit: cover;
+	display: inline-block;
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+	margin-right: 13px;
+}
+.videos .smpvid img{
+	max-width: 100%;
+}
+.videos .vids{
+	height: 360px;
+	width: 314px;
+	overflow-y: scroll;
+	display: inline-block;
+	background-color: white;
+	border: 1px solid #d2d2d2;
+}
+.videos .vids div{
+	position: relative;
+	margin-bottom: 7px;
+	margin-left: 5px;
+}
+.videos .a div{
+	display: inline-block;
+	margin-left: 13px;
+	margin-top: 13px;
+}
+.videos .b div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .c div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .d div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .e div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .f div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .g div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .h div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .i div{
+	display: inline-block;
+	margin-left: 13px;
+}
+.videos .vids .text{
+	position: absolute;
+	top: 2px;
+	left: 145px;
+	color: black;
+	font-family: arial,"Lucida Grande", sans-serif;
+	font-weight: bolder;
+	font-size: 13.7px;
+	padding-right: 7px;
+	margin-left: 0px;
+}
+
+/* Bonus */
+.bonus{
+
+}
+.bonus .text6{
+	color: #d83230;
+	font-weight: 400;
+	font-size: 36px;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	margin-top: 42px;
+	margin-bottom: 22px;
+	text-align: center;
+}
+.bonus .container6{
+	width: 1050px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.bonus .fas{
+	position: relative;
+	top: 3px;
+}
+.bonus .container6 div{
+	text-align: center;
+	display: inline-block;
+	width: 256px;
+	border-right: 1px solid #d83230;
+	font-family: BrandonText-Regular,sans-serif;
+	color: #3a3a3a;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+.bonus .container6 .a{
+	border-left: 1px solid #d83230;
+}
+
+/* craccount */
+.craccount{
+	background-color: #f4f1ea;
+	overflow: hidden;
+}
+.craccount .text7{
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	color: #d73131;
+	font-size: 36px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.craccount .container7{
+	margin: auto;
+	width: 1020px;
+	margin-bottom: 30px;
+}
+.craccount .b span{
+	position: relative;
+	bottom: 2.5px;
+}
+.craccount .tchrs{
+	display: inline-block;
+}
+.craccount .prnts{
+	display: inline-block;
+	margin-left: 15px;
+}
+.craccount .tchrs .a{
+	font-size: 32px;
+	color: #3fb0eb;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	line-height: 40px;
+	text-align: center;
+}
+.craccount .tchrs .b{
+	background-color: #3fb0eb;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 14px;
+	height: 45px;
+	width: 485px;
+	text-align: center;
+	padding-top: 13px;
+	box-sizing: border-box;
+}
+.craccount .fas{
+	display: inline-block;
+}
+.craccount .prnts .a{
+	font-size: 32px;
+	color: #f28005;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	line-height: 40px;
+	text-align: center;
+}
+.craccount .prnts .b{
+	background-color: #f28005;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 14px;
+	height: 45px;
+	width: 485px;
+	text-align: center;
+	padding-top: 13px;
+	box-sizing: border-box;
+}
+.craccount a{
+	text-decoration: none;
+}
+
+/* Links */
+.links{
+	background-color: #f4f1ea;
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.links ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.links li{
+	margin-bottom: 8px;
+}
+.links .container8{
+	margin: auto;
+	width: 1000px;
+	height: 173px;
+	position: relative;;
+}
+
+.links .container8 .tchrs{
+	padding: 17px 20px 0;
+	display: table-cell;
+	width: 205px;
+	overflow: auto;
+	border-right: 4px solid white;
+	border-left: 4px solid white;
+}
+.links .container8 .prnts-cntst{
+	padding: 17px 20px 0;
+	display: table-cell;
+	width: 205px;
+	overflow: auto;
+	border-right: 4px solid white;
+}
+.links .prnts-cntst .b{
+	padding-top: 17px;
+}
+.links .container8 .cntct{
+	padding: 17px 20px 0;
+	display: table-cell;
+	width: 205px;
+	overflow: auto;
+	border-right: 4px solid white;
+}
+.links .container8 .fllw{
+	padding: 17px 20px 0;
+	display: table-cell;
+	width: 205px;
+	overflow: auto;
+	border-right: 4px solid white;
+}
+.links .container8 .a{
+	font-weight: 700;
+	line-height: .8;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	margin-bottom: 18px;
+}
+.links .container8 .b{
+	font-weight: 700;
+	line-height: 1;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	margin-bottom: 18px;
+}
+.links .container8 a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-family: arial, sans-serif;
+	line-height: 0.8;
+}
+.links .container8 a:hover{
+	color: orange;
+}
+
+/* prvlcy */
+.prvlcy .container9{
+	width: 996px;
+	margin: auto;
+	overflow: auto;
+	margin-bottom: 60px;
+}
+.prvlcy .link div{
+	display: inline-block;
+
+}
+.prvlcy a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+}
+.prvlcy a:hover{
+	text-decoration: none;
+	color: orange;
+	font-size: 12px;
+	font-family: arial, sans-serif;
+}
+.prvlcy .link span{
+	padding-right: 8px;
+	padding-left: 11px;
+	color: black;
+}
+.prvlcy .policy ul{
+	margin-top: 5px;
+	height: 18px;
+	padding-left: 0px;
+}
+.prvlcy .policy li{
+	float: left;
+	height: 20px;
+	overflow: auto;
+}
+.prvlcy .policy .a{
+	font-size: 12px;
+	font-weight: 700;
+	font-family: arial, sans-serif;
+	width: 105px;
+	margin-right: 10px;
+	float: left;
+}
+.prvlcy .policy .b{
+	font-size: 12px;
+	font-family: arial, sans-serif;
+	width: 100px;
+	margin-right: 10px;
+}
+.prvlcy .policy .c{
+	font-size: 12px;
+	font-family: arial, sans-serif;
+	width: 300px;
+	margin-right: 10px;
+}
